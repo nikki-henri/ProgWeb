@@ -1,7 +1,8 @@
 
 html{
-    margin:25px 50px 75px 100px;
+    margin:35px 100px 35px 100px;
     background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     border: 2px white;
@@ -12,56 +13,117 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
-h1, h2, h3, h4, h5, button{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+.navbar{
+    display: flex;
 }
-p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.navbar p{
+    font-weight: bolder;
+    display: flex;
+    height: auto;
+    padding: 5px 10px;
+}
+#LogIn{
+    text-decoration: none;
+    border: none;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+}
+#LogIn:Hover{
+    color: black;
+    background-color: rgb(233, 233, 233);
+}
+#SignUp{
+    font-weight: bolder;
+}
+.navbar button{
+    float: right ;
+}
+.categorias button{
+    display: flex;
+    border: none;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    color: black;
+    float: left ;
+}
+.categorias button:Hover{
+    color: black;
+    background-color: rgb(233, 233, 233);
+}
 
+h1, h4{
+    text-align: center;
 }
 h1 {
     font-weight: bold;
-
 }
-h2 {
+p {
     font-weight: normal;
-    
+    text-align: center;
 }
 h3{
     font-weight: normal;
-
 }
 h4 {
     color: gray;
-    
 }
 h5 {
     font-weight: normal;
-
 }
-.div-2 {
+.div1 {
     border-width: 20px 20px;
 }
-.div-3 {
+.div2 {
     background-color: #fcfce4 ;
 }
-img{
-    align-items: center;
+.div2 img{
+    display:block;
+    margin:auto;
+}
+.barra{
+    border: 2px white;
+    border-radius: 50px;
+    padding: 5px 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 button {
     border: none;
-    border-radius: 12px;
+    border-radius: 35px;
     color: black;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
-    background-color: yellow;
+    background-color:#f9da06 ;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.Cuadros{
+    display: contents;
+    justify-content:center;
+    margin: 25px;
+    padding: 25px;
+}
+.C1, .C2, .C3, .C4{
+    width: 60%;
+}
+.one{
+    font-weight: bolder;
+    display: flex;
+    float: left;
+    height: auto;
+    padding: 5px 10px;
+}
+.two{
+    font-weight: normal;
+    display: flex;
+    float: right;
+    height: auto;
+    padding: 5px 50px;
 }
