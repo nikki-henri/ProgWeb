@@ -1,0 +1,12 @@
+.Columnas{
+    column-count:5;
+    column-gap:20px;
+    column-rule:4px solid black;
+    list-style: none;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+}
