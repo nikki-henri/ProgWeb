@@ -1,7 +1,9 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-links{
+li {
+    color: purple;
+}
+a{
     color: black;
 }
