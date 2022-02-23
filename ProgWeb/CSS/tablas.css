@@ -1,5 +1,9 @@
-html {
+body {
     font-family: sans-serif;
+}
+
+h1{
+    font-family: monospace;
 }
   
 table {
@@ -13,14 +17,13 @@ td, th {
     padding: 10px 20px;
 }
 
+th{
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+
 td {
     background-color: rgb(205, 241, 253);
-}
-  
-td {
     text-align: center;
 }
   
-caption {
-    padding: 10px;
-}
