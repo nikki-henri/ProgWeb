@@ -1,0 +1,50 @@
+.redeslogos{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: #8979e8;
+    border-color: #8979e8;
+    padding: 10px 20px; 
+    border-radius: 50px;
+}
+
+.button2{
+    color:#8979e8;
+    background-color: transparent;
+    border-color: #8979e8;
+    padding: 10px 20px; 
+    border-radius: 50px;
+}
+.button2:hover {
+    background: #8979e8; 
+    color: white;
+}
+
+.button3{
+    color: white;
+    background-color: #090909;
+    border-color: #090909;
+    padding: 10px 20px; 
+    border-radius: 50px;
+}
+.carousel-fade{
+  padding: auto;  
+}
+.testimonios{
+    text-align: center;
+}
+.imgRedonda{
+    border-radius: 50%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.final{
+    text-align: center;
+}
