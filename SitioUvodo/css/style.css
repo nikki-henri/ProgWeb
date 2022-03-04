@@ -45,6 +45,24 @@ footer{
     padding-top: 10px;
     padding-bottom: 50px;
 }
+.navd{
+    border-color: transparent;
+    background-color: transparent;
+}
+.navd:hover{
+    color: #ed9981;
+}
+
 .final{
     text-align: center;
+}
+.ND{
+    color: #8e9ca1;
+}
+.navdown{
+    padding-left: 30px;
+}
+.navdown2{
+    padding-left: 30px;
+    padding-right: 50%;
 }
