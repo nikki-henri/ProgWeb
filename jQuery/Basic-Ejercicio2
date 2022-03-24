@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Document Ready Demo</title>
+    <link rel="stylesheet" type="text/css" href="/examples/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").text("Bienvenido a la página");
+        });
+    </script>
+</head>
+<body>
+    <p>Cargando...</p>
+</body>
+</html>
