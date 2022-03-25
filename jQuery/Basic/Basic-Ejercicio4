@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Shorthand Syntax</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script>
+		$(function(){
+			// Some code to be executed...
+			alert("Error 404");
+		});
+	</script>
+</head>
+<body>
+	<!--Contents will be inserted here-->
+</body>
+</html>
