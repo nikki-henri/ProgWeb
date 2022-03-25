@@ -1,3 +1,5 @@
+<! –– Including jQuery in HTML document ––> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
