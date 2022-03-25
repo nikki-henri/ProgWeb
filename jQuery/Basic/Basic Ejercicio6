@@ -1,0 +1,31 @@
+<! –– Change text contents of the elements on button click using jQuery ––>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Set Text Contents of the Elements</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".btn-one").click(function(){
+        $("p").text("Dr Strange - Hechicero Supremo");
+    });
+    $(".btn-two").click(function(){
+        $("p:first").text("Wanda - Scarlet Witch");
+    });
+    $(".btn-three").click(function(){
+        $("p.empty").text("Wong - Ayudante de cámara");
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="btn-one">Doctor Strange</button>
+    <button type="button" class="btn-two">Wanda Maximoff</button>
+    <button type="button" class="btn-three">Wong</button>
+    <p>Elige un personaje para más información</p>
+  	<p>Cada uno de ellos parte de <em>Marvel</em></p>
+    <p class="empty"></p>
+</body>
+</html>
