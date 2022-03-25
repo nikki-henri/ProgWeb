@@ -8,10 +8,12 @@
     <script>
         $(document).ready(function(){
             $("p").text("Bienvenido a la página");
+            $("em").text("Disfruta el artículo.");
         });
     </script>
 </head>
 <body>
     <p>Cargando...</p>
+    <em>no carga...</em>
 </body>
 </html>
