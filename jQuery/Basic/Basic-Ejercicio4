@@ -7,11 +7,12 @@
 	<script>
 		$(function(){
 			// Some code to be executed...
-			alert("Error 404");
+			alert("J.A.R.V.I.S. not available");
 		});
 	</script>
 </head>
 <body>
 	<!--Contents will be inserted here-->
+	<h1>Marvel Cinematic Universe</h1> 
 </body>
 </html>
