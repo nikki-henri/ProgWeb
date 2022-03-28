@@ -1,0 +1,20 @@
+<!-- Run code on document ready event in jQuery -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Ready Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h1").text("DOM cargado, se puede manipular.");
+    $("p").text("DOM cargado, se puede manipular.");
+});
+</script>
+</head>
+<body>
+  	<h1>Titulo no cargado.</h1>
+    <p>Contenido no cargado.</p>
+</body>
+</html>
