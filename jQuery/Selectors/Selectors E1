@@ -1,0 +1,32 @@
+!<-- Selecting an element by ID in jQuery -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Select Element by ID</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    // Highlight element with id mark
+  	$("#blue").css("background", "blue");
+    $("#red").css("background", "red");
+  	$("#purple").css("background", "purple");
+  	$("#yellow").css("background", "yellow");
+  	$("#green").css("background", "green");
+    $("#orange").css("background", "orange");
+});
+</script> 
+</head>
+<body>
+    <p>Marvel Infinity Stones.</p>
+  	<p id="blue">Space Stone</p>
+  	<p id="red">Reality Stone.</p>
+  	<p id="purple">Power Stone.</p>
+    <p id="yellow">Mind Stone.</p>
+    <p id="green">Time Stone.</p>
+    <p id="orange">Soul Stone.</p>
+    
+  	<p><strong>Note:</strong> The color of the stones are different in the movies and comics.</p>
+</body>
+</html>
