@@ -1,0 +1,26 @@
+<! –– Selecting elements by class name in jQuery ––>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Select Element by Class</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    // Highlight elements with class mark
+  	$(".subtitle").css("background", "green");
+  	$(".subtitle2").css("background", "orange");
+});
+</script>
+</head>
+
+<body>
+    <h1>Netflix</h1>
+    <p class="subtitle">Series vistas:</p>
+    <p>The Vampire Diaries, The Originals.</p>
+    <p class="subtitle2">Series por ver:</p>
+  	<p>Legacies. The 100.</p>
+    <p>Y más...</p>
+</body>
+</html>
