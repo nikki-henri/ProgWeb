@@ -1,0 +1,54 @@
+<!-- Select Element by Compound Selector -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Select Element by Compound Selector</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    // Highlight only paragraph elements with class mark
+    $("p.mark").css("background", "lightblue");
+  
+    // Highlight only span elements inside the element with ID mark
+    $("#mark span").css("background", "orange");
+  
+    // Highlight li elements inside the ul elements
+    $("ul li").css("background", "yellow");
+  
+    // Highlight li elements only inside the ul element with id mark
+    $("ul#mark li").css("background", "red");
+  
+    // Highlight li elements inside all the ul element with class mark
+    $("ul.mark li").css("background", "violet");
+  
+    // Highlight all anchor elements with target blank
+    $('a[target="_blank"]').css("background", "lightgreen");
+});
+</script>
+</head>
+<body>
+    <h1>Vamos a hacer el super.</h1>
+    <p class="mark">Lista por tipos de alimentos.</p>
+  	<p>Frutas</p>
+  	<ul>
+        <li>Mangos</li>
+        <li>Sandía</li>
+        <li>Platanos</li>
+    </ul>
+  	<p>Verduras</p>
+    <ul id="mark">
+        <li>Pepinos</li>
+        <li>Zanahorias<span>Si no hay Jícama</span></li>
+        <li>Lechuga</li>
+    </ul>
+  	<p>Más cosas</p>
+    <ul class="mark">
+        <li>Cereal</li>
+        <li>Café</li>
+        <li>Pasta</li>
+    </ul>
+    <p>Click aqui para <a href="https://www.google.com/" target="_blank">cargar más</a>...</p>
+</body>
+</html>
