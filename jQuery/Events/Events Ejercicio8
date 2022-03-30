@@ -27,7 +27,7 @@ $(document).ready(function(){
 <body>
     <input type="text">
     <div>Keydown: <span>0</span></div>
-	<div><strong>NOTA:</strong> Escribe dentro de la caja y mira.</div>
+	<div><strong>NOTA: </strong>Presiona una tecla dentro de la caja y mira.</div>
     <p>Esto es emocionate!</p>
 </body>
 </html>
