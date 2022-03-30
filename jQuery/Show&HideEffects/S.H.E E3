@@ -1,0 +1,30 @@
+Creating simple toggle effect
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Toggle Effect</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p, h1{
+        padding: 15px;
+        background: lightgreen;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("p").toggle();
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="toggle-btn">Parrafos "Toggle"</button> 
+  	<h1>Este es un título y no pasa nada</h1>
+    <p>Este es un parrafo.</p>
+    <p>Este es otro un parrafo.</p>
+</body>
+</html>                                		
