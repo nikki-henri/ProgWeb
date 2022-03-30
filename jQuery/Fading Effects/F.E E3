@@ -1,0 +1,30 @@
+Creating fade toggle effect
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Fade-Toggle Effect</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p, h1{
+        padding: 25px;
+        background: lightblue;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Toggles paragraphs display with fading
+    $(".toggle-btn").click(function(){
+        $("p").fadeToggle();
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="toggle-btn">Boton para desvanecer párrafos</button> 
+  	<h1>Yo no desaparezco porque soy un título</h1>
+    <p>Párrafo uno, picale al boton</p>
+    <p>Párrafo dos, hello hello, bye bye</p>
+</body>
+</html>       
