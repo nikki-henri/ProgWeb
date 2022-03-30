@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Mouseenter Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p, h1{
+        padding: 20px;
+        font: 50px serif;
+        background: red;
+    }
+    p.highlight{
+        background: orange;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("p").mouseenter(function(){
+        $(this).addClass("highlight");
+    });
+    $("p").mouseleave(function(){
+        $(this).removeClass("highlight");
+    });
+});
+</script>
+</head>
+<body>
+    <p>Pasa el cursor por aquí.</p>
+    <p>Acá también.</p>
+    <h1>En esta linea no pasará nada.</h1>
+</body>
+</html>
