@@ -1,0 +1,29 @@
+Run code on resize event
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Resize Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 26px;
+        font: 26px sans-serif;
+        background: #7ee8fa;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $(window).resize(function() {
+        $(window).bind("resize", function(){ 
+            $("p").text("Ancho ventana: " + $(window).width() + ", " + "Altura ventana: " + $(window).height());
+        });
+    });
+});
+</script>
+</head> 
+<body>
+    <p>Cambia el tamaño de la ventana de este navegador arrastrando las esquinas.</p>
+</body>
+</html>
