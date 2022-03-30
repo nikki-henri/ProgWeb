@@ -1,0 +1,46 @@
+Creating animated show hide effect
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Animated Show Hide Effects</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 15px;
+        background: #b0e0e6;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Hide displayed paragraphs with different speeds
+    $(".hide-btn").click(function(){
+        $("p.normal").hide();
+        $("p.fast").hide("fast");
+        $("p.slow").hide("slow");
+        $("p.very-fast").hide(50);
+        $("p.very-slow").hide(2000);
+    });
+    
+    // Show hidden paragraphs with different speeds
+    $(".show-btn").click(function(){
+        $("p.normal").show();
+        $("p.fast").show("fast");
+        $("p.slow").show("slow");
+        $("p.very-fast").show(50);
+        $("p.very-slow").show(2000);
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="hide-btn">Esconder Parrafos</button> 
+    <button type="button" class="show-btn">Aparecer Parrafos</button>
+    <p class="very-fast">Este parrafo se escondera/aparecera super rápido</p>
+    <p class="normal">Este parrafo se escondera/aparecera a velocidad normal.</p>
+    <p class="fast">Este parrafo se escondera/aparecera rapido.</p>
+    <p class="slow">Este parrafo se escondera/aparecera lento.</p>
+    <p class="very-slow">Este parrafo se escondera/aparecera supeer lento</p>
+</body>
+</html>
