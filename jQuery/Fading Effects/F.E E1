@@ -1,0 +1,36 @@
+Creating fade-in and fade-out effect
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Fade-In and Fade-Out Effects</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p, h1{
+        padding: 15px;
+        background: #DDA0DD;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Fadeing out displayed paragraphs
+    $(".out-btn").click(function(){
+        $("p").fadeOut();
+    });
+    
+    // Fading in hidden paragraphs
+    $(".in-btn").click(function(){
+        $("p").fadeIn();
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="out-btn">Desaparecer Párrafos</button>
+    <button type="button" class="in-btn">Aparecer Párrafos</button>
+    <p>Este es un párrafo.</p>
+  	<h1>Este no es un párrafo.</h1>
+    <p>Este es otro párrafo.</p>
+</body>
+</html>     
