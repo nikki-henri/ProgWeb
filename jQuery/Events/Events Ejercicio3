@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Double-click Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 15px;
+        font: 26px sans-serif;
+        background: #9966cc;
+    }
+ 	h1{
+        padding: 15px;
+        font: 26px sans-serif;
+        background: #9966cc;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("p").dblclick(function(){
+        $(this).slideUp();
+    });
+});
+</script>
+</head>
+<body>
+    <p>Da doble click para ver un truco de magia.</p>
+    <p>Broma solo desaparecemos.</p>
+    <h1>Yo no, yo soy diferente. :)</h1>
+</body>
+</html>
