@@ -1,0 +1,33 @@
+Fading elements to a certain opacity
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Fade-To Effect</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        display: none;
+        padding: 15px;
+        background: lightgreen;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    // Fade to paragraphs with different opacity
+    $(".to-btn").click(function(){
+        $("p.none").fadeTo("fast", 0.2);
+        $("p.partial").fadeTo("slow", 0.6);
+        $("p.complete").fadeTo(2000, 1.5);
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="to-btn">Boton Parrafos escondidos</button>
+    <p class="none">Este párrafo casí no se ve.</p>
+    <p class="partial">Este párrafo apenas se ve.</p>
+    <p class="complete">Este párrafo si se ve.</p>
+</body>
+</html>                                		
