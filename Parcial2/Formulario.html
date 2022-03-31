@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Act 2A</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <h1>Rellena el siguiente formulario:</h1>
+    <form action="">
+        <label for="number">Ingrese su numero telefónico:</label>
+        <input id="number" type="text" name="number" value=""
+            minlength="12" maxlength="12" placeholder="# Telefónico" required>
+        <br>
+        <br>
+        <label for="email">Ingrese su correo:</label>
+        <input type="email" name="email" id="email" placeholder="Correo Electrónico"
+            pattern="[a-z]{0-9}+_+@+.com" size="30" required>
+        <br>
+        <br>
+        <label for="username">Usuario:</label>
+        <input type="text" name="name" placeholder="Nombre de Usuario" 
+            pattern="{a-z}" required>
+        <br>
+        <br>
+        <label for="gender">Seleccione su género:</label> <br>
+        <input type="radio" name="gender" value="female" required> Femenino
+        <input type="radio" name="gender" value="male" required> Masculino 
+        <input type="radio" name="gender" value="other" required> Otro   
+        <br>
+        <br>
+        <label for="number">Introduzca su edad:</label>
+        <input type="number" id="age" name="age" value="age"
+            min="0" max="100" required>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
