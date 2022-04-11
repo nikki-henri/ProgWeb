@@ -166,6 +166,38 @@ h3{
     padding: 10px;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 300px;
+    margin: 5%;
+    text-align: center;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+.button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #8cdcfd;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+#card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+
 footer{
     padding: 20px ;
     background-color: #98b4b6;
