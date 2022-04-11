@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/registericon.ico" type="image/x-icon">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/myscript.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/vacunas.png" alt="logo vacunas" width="90px" height="90px">
+            <h1>TusVacunas</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <h2>Crear cuenta</h2>
+            <br>
+            <form>
+                <div class="form">
+                    <label class="form-label" for="form-name">Nombre:</label>
+                    <input type="text" id="form-name" class="form-control form-control-lg" />
+                </div>
+                <br>
+                <div class="form">
+                  <label class="form-label" for="form-email">Correo:</label>
+                  <input type="email" id="form-email" class="form-control form-control-lg" />
+                </div>
+                <br>
+                <div class="form">
+                  <label class="form-label" for="form-password">Contraseña:</label>
+                  <input type="password" id="form-password" class="form-control form-control-lg" />
+                </div>
+                <br>
+                <div class="form">
+                  <label class="form-label" for="form-password2">Repetir Contraseña:</label>
+                  <input type="password" id="form-password2" class="form-control form-control-lg" />
+                </div>
+                <br>
+                <div class="form-check">
+                  <input class="form-check" type="checkbox" 
+                    value="" id="form" />
+                  <label class="form-check-label" for="form2">Estoy de acuerdo con los 
+                      <a href="terms.html" target="_blank" class="text-body"><u>Términos de servicio</u></a>
+                  </label>
+                </div>
+                <br>
+                <div class="button">
+                  <button type="button"  id='validate' class="register">Registrarse</button>
+                </div>
+                <p class="text">¿Ya tienes una cuenta? <a href="acceso.html" >
+                    <u>Inicia sesión aquí</u></a></p>
+            </form>
+            <p id='result'></p>
+        </div>
+    </div>
+    <footer>
+        <a href=" " target="_blank">Privacidad</a>
+        <a href=" " target="_blank">Uso de Datos</a>
+        <br>
+        <br>
+        <p>2022 © TusVacunas Inc.</p>
+    </footer>
+</body>
+</html>
